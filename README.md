@@ -3,7 +3,7 @@ A lightweight, concurrent FTP server written in pure Go for [this tutorial](http
 
 Compile the binary and run it to launch the server on port `8080` (default), or configure it with the `-port` flag. Congratulations! Your server is ready to receive requests through your FTP client of choice.
 
-**Note**: This is not an SFTP server. Currently, it does not authenticate users. Don't try to use it for anything important.
+**Note**: This is not an SFTP server. Connections to it are not secure. Don't try to use it for anything important.
 
 ## To do
 * Username and password authentication
